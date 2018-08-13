@@ -39,7 +39,7 @@ your terminal.
 5. Navigate to the folder where sh00t is cloned or downloaded & extracted: `cd sh00t`. Note that this is the outer-most 
 *sh00t* directory in project files. Not *sh00t/sh00t*.
 6. Install Sh00t dependency packages: `pip install -r requirements.txt`
-7. Setup database: `python manage.py migrate`
+7. Setup database: `python[version NUMBER] manage.py migrate | i.e python3 manage.py migrate `
 8. Create an User Account: `python manage.py createsuperuser` and follow the UI to create an 
 account.
 9. Optional but recommended: Load  Test Cases from OWASP Testing Guide (OTG) and Web Application Hackers Handbook (WAHH): `python reset.py`.
